@@ -55,6 +55,7 @@ module Spree
                 }
               )
 
+        puts json_payload if res.code != 202
         validate(res)
       end
 
